@@ -198,4 +198,4 @@ cython_debug/
 # Database
 *.sqlite3
 
-bookstore/settings.py
+
