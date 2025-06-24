@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px; /* same width as image */
+    margin: 20px auto; /* center horizontally */
+    padding: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.logout-link {
+    /* this link will be pushed right by flexbox */
+}

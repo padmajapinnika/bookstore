@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookstore's Home</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'sales/home.js' %}" defer></script>
+</head>
+<body>
+
+    <h1>Welcome to our Bookstore</h1> 
+
+    <!-- Container for Login and Logout links -->
+    <div class="nav-links">
+        <a href="{% url 'login' %}">Login</a>
+        <a href="{% url 'logout' %}" class="logout-link">Logout</a>
+    </div>
+
+    <img src="{% static 'sales/images/bookstore.jpg' %}" alt="home" width="600" height="300">
+
+</body>
+</html>
